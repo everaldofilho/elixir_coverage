@@ -1,0 +1,3 @@
+linters:
+    credo:
+        ignore-checks: duplicated
