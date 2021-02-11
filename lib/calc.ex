@@ -7,4 +7,6 @@ defmodule Calc do
   def divide(x, y), do: x / y
 
   def multiply(x, y), do: x * y
+
+  def sum_total(items), do: Enum.sum(items)
 end
