@@ -8,5 +8,5 @@ defmodule Calc do
 
   def multiply(x, y), do: x * y
 
-  def sum_total(items), do: Enum.sum(items)
+    def sum_total(items), do: Enum.sum(items)
 end
