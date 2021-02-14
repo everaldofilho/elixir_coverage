@@ -1,12 +1,24 @@
 defmodule Calc do
+  @moduledoc """
+  Calculadora
+  """
 
-def sum(x, y), do: x + y
+  @doc """
+  Hello world.
 
-    def subtract(x, y), do: x - y
+  ## Examples
+
+      iex> Calc.sum(2,2)
+      4
+
+  """
+  def sum(x, y), do: x + y
+
+  def subtract(x, y), do: x - y
 
   def divide(x, y), do: x / y
 
-def multiply(x, y), do: x * y
+  def multiply(x, y), do: x * y
 
-    def sum_total(items), do: Enum.sum(items)
+  def sum_total(items), do: Enum.sum(items)
 end
