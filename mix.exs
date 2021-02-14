@@ -16,6 +16,15 @@ defmodule ProjectTest.MixProject do
         "coveralls.json": :test,
         "coveralls.detail": :test,
         "coveralls.html": :test
+      ],
+      # Docs
+      name: "Project Test",
+      source_url: "https://github.com/everaldofilho/elixir_coverage",
+      homepage_url: "https://everaldofilho.github.io/elixir_coverage",
+      docs: [
+        main: "ProjectTest", # The main page in the docs
+        logo: "./logo.png",
+        extras: ["README.md"]
       ]
     ]
   end
@@ -30,7 +39,9 @@ defmodule ProjectTest.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ex_doc, "~> 0.23", only: :dev, runtime: false},
       {:excoveralls, "~> 0.10", only: :test},
+      {:credo, "~> 1.5"},
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]

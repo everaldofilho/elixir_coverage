@@ -31,8 +31,3 @@ jobs:
       run: mix deps.get
     - name: Generate Coverage
       run: mix coveralls.github
-    # - name: Coveralls
-    #   uses: coverallsapp/github-action@master
-    #   with:
-    #     github-token: ${{ secrets.GITHUB_TOKEN }}
-    #     path-to-lcov: ./cover/excoveralls.json
