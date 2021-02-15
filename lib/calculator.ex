@@ -16,17 +16,17 @@ defmodule Calculator do
       6
   """
 
-  @spec sum(number, number) :: number
-  def sum(x, y) do
-    x + y
-  end
+@spec sum(number, number) :: number
+def sum(x, y) do
+  x + y
+end
 
-  @spec subtract(number, number) :: number
-  def subtract(x, y), do: x - y
+@spec subtract(number, number) :: number
+def subtract(x, y), do: x - y
 
-  @spec divide(number, number) :: float
-  def divide(x, y), do: x / y
+    @spec divide(number, number) :: float
+    def divide(x, y), do: x / y
 
-  @spec multiply(number, number) :: number
-  def multiply(x, y), do: x * y
+          @spec multiply(number, number) :: number
+          def multiply(x, y), do: x * y
 end
