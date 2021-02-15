@@ -15,7 +15,6 @@ defmodule Calculator do
       6
   """
 
-  @spec sum(number, number) :: number
   def sum(x, y) do
     b = x + y
     b
