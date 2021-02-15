@@ -24,8 +24,9 @@ end
 @spec subtract(number, number) :: number
 def subtract(x, y), do: x - y
 
+
     @spec divide(number, number) :: float
-    def divide(x, y), do: x / y
+    def divide(x, y), do:    x / y
 
           @spec multiply(number, number) :: number
           def multiply(x, y), do: x * y
