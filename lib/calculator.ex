@@ -20,7 +20,6 @@ defmodule Calculator do
     b
   end
 
-  @spec subtract(number, number) :: number
   def subtract(x, y), do: x - y
 
   @spec divide(number, number) :: float
