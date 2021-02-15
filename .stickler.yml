@@ -3,5 +3,5 @@ linters:
         config-name: default
         all: true
         all-priorities: true
-        # strict: true
+        strict: true
         # ignore-checks: duplicated
