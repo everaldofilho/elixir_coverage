@@ -1,4 +1,5 @@
 defmodule CalculatorTest do
+  @moduledoc false
   use ExUnit.Case
 
   @data_provider [
