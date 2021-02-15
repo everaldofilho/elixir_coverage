@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "command": "docker-compose run --rm app mix compile",
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "Docs",
+      "command": "docker-compose run --rm app mix docs",
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "Format",
+      "command": "docker-compose run --rm app mix format",
+      "type": "shell",
+      "problemMatcher": []
+    },
+    {
+      "label": "Tests",
+      "command": "docker-compose run --rm app mix test ",
+      "type": "shell",
+      "problemMatcher": [],
+    }
+  ]
+}
