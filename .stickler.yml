@@ -4,4 +4,4 @@ linters:
         all: true
         all-priorities: true
         strict: true
-        # ignore-checks: duplicated
+        ignore-checks: duplicated
