@@ -3,4 +3,4 @@
 
 # Projeto Elixir para aprendizado
 
-Gerando coverage teste 53w53
+Gerando coverage teste

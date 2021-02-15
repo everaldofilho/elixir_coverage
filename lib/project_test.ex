@@ -12,11 +12,6 @@ defmodule ProjectTest do
       :world
 
   """
-  def hello do
-
-
-    :world
-
-
-  end
+  @spec hello :: :world
+  def hello, do: :world
 end

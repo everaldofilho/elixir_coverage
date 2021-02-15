@@ -1,4 +1,5 @@
-defmodule CalcTest do
+defmodule CalculatorTest do
+  @moduledoc false
   use ExUnit.Case
 
   @data_provider [
@@ -12,7 +13,7 @@ defmodule CalcTest do
   describe "sum/2" do
     test "Success" do
       for [x, y] <- @data_provider do
-        assert (x + y) == Calc.sum(x, y)
+        assert x + y == Calculator.sum(x, y)
       end
     end
   end
@@ -20,7 +21,7 @@ defmodule CalcTest do
   describe "subtract/2" do
     test "Success" do
       for [x, y] <- @data_provider do
-        assert (x - y) == Calc.subtract(x, y)
+        assert x - y == Calculator.subtract(x, y)
       end
     end
   end
@@ -28,7 +29,7 @@ defmodule CalcTest do
   describe "divide/2" do
     test "Success" do
       for [x, y] <- @data_provider do
-        assert (x / y) == Calc.divide(x, y)
+        assert x / y == Calculator.divide(x, y)
       end
     end
   end
@@ -36,7 +37,7 @@ defmodule CalcTest do
   describe "multiply/2" do
     test "Success" do
       for [x, y] <- @data_provider do
-        assert (x * y) == Calc.multiply(x, y)
+        assert x * y == Calculator.multiply(x, y)
       end
     end
   end
