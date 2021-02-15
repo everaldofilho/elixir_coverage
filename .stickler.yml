@@ -1,4 +1,4 @@
 linters:
     credo:
-        all: all
+        all: 
         # ignore-checks: duplicated
