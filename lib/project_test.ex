@@ -3,7 +3,6 @@ defmodule ProjectTest do
   Documentation for ProjectTest.
   """
 
-
   @doc """
   Hello world.
 
@@ -15,5 +14,4 @@ defmodule ProjectTest do
   """
   @spec hello :: :world
   def hello, do: :world
-
 end
