@@ -1,6 +1,6 @@
 linters:
     credo:
-        checks: all
         all: true
         all-priorities: true
+        strict: true
         # ignore-checks: duplicated
