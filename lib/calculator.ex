@@ -2,6 +2,7 @@ defmodule Calculator do
   @moduledoc """
   Documentation for calculator
   """
+  @spec sum(number, number) :: number
   @doc """
   Sum two parameters
 
@@ -15,14 +16,17 @@ defmodule Calculator do
       6
   """
 
-def sum(x,y) do
-  b     =      x +     y
-  b
-end
+  def sum(x, y) do
+    b = x + y
+    b
+  end
 
-          def subtract(x, y), do: x - y
+  @spec subtract(number, number) :: number
+  def subtract(x, y), do: x - y
 
+  @spec divide(number, number) :: float
   def divide(x, y), do: x / y
 
-def multiply(x, y), do: x * y
+  @spec multiply(number, number) :: number
+  def multiply(x, y), do: x * y
 end
